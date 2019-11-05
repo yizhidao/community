@@ -1,0 +1,485 @@
+.banner {
+    width: 100%;
+    height: 280px;
+    background: url('../img/banner5.png') no-repeat;
+    background-size: 100% 100%;
+}
+.banner .keyword {
+    padding: 100px 0;
+    box-sizing: border-box;
+    width: 840px;
+    margin: 0 auto;
+}
+.banner .keyword .search-body {
+    position: relative;
+}
+.banner .keyword .search-body .title {
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+}
+.about{
+	background: #fff;
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    z-index: 1000;
+    top:-50px;
+    box-shadow: 0 2px 25px 0px rgba(0,0,0,.1);
+    display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    padding: 5px 25px 25px 5px;
+    border-radius: 5px; 
+}
+.about .about-item {
+    width: 23%;
+    height: 95px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+	justify-content: space-around;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.line-title {
+	height: 3px;
+	width: 90px;
+	margin: 0 auto;
+	background: #2dcea5;
+}
+.about-title {
+	text-align: center;
+	font-size: 32px;
+}
+.about .icon-img {
+    width: 20%;
+    text-align: right;
+}
+.about .title {
+    width: 60%;
+    font-size: 25px;
+    line-height: 40px;
+    padding-left: 10px
+}
+.about .icon-img img {
+    width: 100%;
+}
+.img {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*=========================
+	Services CSS
+===========================*/
+#service {
+    background: #f4f9ff;
+}
+.service{
+	background: #f4f9ff;
+	width: 1200px;
+	margin: 0 auto;
+	height: 785px;
+}
+.service .cover-img {
+	margin-top: 20px;
+	float: left;
+    width: 60%;
+    margin-left: -40px;
+}
+.service .cover-img img {
+	width:100%;
+}
+.service .service-step {
+	margin-top: 20px;
+	float: left;
+	width: 200px;
+	height: 300px;
+	margin-left: 100px;
+	padding-top: 60px;
+}
+.service .service-step-item {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	margin-top: 40px;
+	position: relative;
+}
+.service .service-step-yuan {
+	width: 18px;
+	height: 18px;
+	border: 1px solid #3c3c3c;
+	border-radius:50%; 
+}
+.active {
+	border-color: #2ccea5 !important;
+	color: #2ccea5 !important;
+}
+.service .service-step-msg {
+	font-size: 16px;
+	color: #3c3c3c;
+	margin-left: 20px;
+}
+.service .xuxian {
+	width: 1px;
+	height: 37px;
+	border: 1px dashed#d7d7d7;
+	position: absolute;
+	top: 22px;
+	left: 8px;
+}
+/*=========================
+	End Services CSS
+===========================*/
+
+/*=========================
+	Story CSS
+===========================*/
+
+.story{
+	background:#fff;
+	width: 100%;
+	min-height: 883px;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+.story .story-content {
+	width: 1200px;
+	margin: 0 auto;
+}
+.story .cover-img {
+	margin-top: 20px;
+	float: left;
+	width: 60%;
+	margin-left: -40px;
+}
+.story .cover-img img {
+	width:100%;
+}
+.story .story-step {
+	margin-top: 20px;
+	float: left;
+	width: 200px;
+	height: 300px;
+	margin-left: 100px;
+}
+.story .story-step-item {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	margin-top: 40px;
+	position: relative;
+}
+.story .story-step-yuan {
+	width: 18px;
+	height: 18px;
+	border: 1px solid #3c3c3c;
+	border-radius:50%; 
+}
+.story .story-step-msg {
+	font-size: 16px;
+	color: #3c3c3c;
+	margin-left: 20px;
+}
+.story .xuxian {
+	width: 1px;
+	height: 37px;
+	border: 1px dashed#d7d7d7;
+	position: absolute;
+	top: 22px;
+	left: 8px;
+}
+
+
+/*=========================
+	End Story CSS
+===========================*/
+
+/*=========================
+	Latest Works CSS
+===========================*/
+.latest-works{
+	height: 760px;
+	width: 100%;
+	background: url('../img/timg.png') no-repeat;
+	background-size: 100% 100%;
+	padding-top: 50px; 
+}
+.latest-works .section-title h2 {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+.latest-works .latest-works-content {
+	width: 1100px;
+	margin: 0 auto;
+	background: #fff;
+	height: 350px;
+}
+.latest-works h1 {
+	font-size: 45px;
+	text-align: center;
+	color: #fff;
+}
+.latest-works-ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 1100px;
+	margin-top: 40px;
+	position: relative;
+	height:350px;
+	background: #fff;
+	justify-content: space-around;
+}
+.latest-works-ul-item {
+	height: 175px;
+	width: 33.33%;
+	border-bottom: 1px solid #f5f5f5;
+	border-right: 1px solid #f5f5f5;
+	padding: 50px;
+	box-sizing: border-box;
+	transition: all 0.5s ease 0s;
+}
+.latest-works-ul-item:hover {
+	height: 175px;
+	width: 33.33%;
+	border: 1px solid #f5f5f5;
+	border-bottom: 3px solid #2ccea5;
+	transform: scale(1.2);
+	background: #fff;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.latest-works-ul-item:hover .icon-msg{
+	display: block !important;
+	color: #9a9a9a;
+}
+.latest-works-ul-item:hover .icon-msg{
+	transform: scale(.7) !important;
+}
+.latest-works-ul-item:hover .icon-img{
+	transform: scale(.7) !important;
+}
+.latest-works-ul-item:hover .icon-title{
+	transform: scale(.7) !important;
+	margin-top: 0px;
+}
+.latest-works-ul-item .icon-img {
+	text-align: center;
+}
+.latest-works-ul-item .icon-img img {
+	width: 40px;
+}
+.latest-works-ul-item .icon-title {
+	font-size: 25px;
+	text-align: center;
+	margin-top: 10px;
+}
+.latest-works-btn {
+	margin: 50px auto;
+	text-align: center;
+}
+.latest-works-btn button {
+	width: 300px;
+	height: 60px;
+	background: #2ccea5;
+	border: none;
+	color: #fff;
+	font-size: 20px;
+	border-radius:5px; 
+	opacity: 0.8;
+}
+.latest-works-btn button:hover {
+	opacity: 1;
+}
+
+/*=========================
+	End Latest Works CSS
+===========================*/
+
+/*=========================
+	Blogs CSS
+===========================*/
+.blog{
+	background:#f4f9ff;
+	height: 850px;
+	padding-top: 80px;
+}
+.blog-ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	margin: 0 auto;
+	position: relative;
+	width: 1200px;
+	height:340px;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 1px solid #dbe3ed;
+}
+.blog-item {
+	height: 250px;
+	width: 33.33%;
+	border-bottom: 4px solid #f4f9ff;
+	padding: 40px;
+	box-sizing: border-box;
+	border-radius:2px; 
+	background: #fff;
+	margin-right: 15px;
+}
+.blog-item:hover{
+	height: 250px;
+	width: 33.33%;
+	border-bottom: 4px solid #2ccea5;
+	padding: 40px;
+	box-sizing: border-box;
+	border-radius:2px; 
+	background: #fff;
+	margin-right: 15px;
+}
+.blog-item .icon-img {
+	text-align: center;
+}
+.blog-item .icon-img img {
+	width: 50px;
+}
+.blog-item .icon-title {
+	font-size: 20px;
+	text-align: center;
+	margin-top: 10px;
+}
+.blog-item .icon-msg {
+	font-size: 13px;
+	text-align: left;
+	margin-top: 10px;
+	color: #9a9a9a;
+	line-height: 25px;
+}
+.blog h2{
+	margin-top:20px;
+	text-align: center;
+	font-size: 22px;
+}
+.blog .blog-img {
+	text-align: center;
+	margin-top: 20px;
+}
+.blog .blog-img .blog-msg {
+	font-size: 18px;
+	line-height: 10px;
+}
+.blog .blog-img img{
+	margin-top: 3px;
+}
+.blog .blog-img .blog-msg:nth-child(1) {
+	margin-right: 10px;
+}
+.blog .blog-img .blog-msg:nth-child(3) {
+	margin-left: 10px;
+}
+
+/*=========================
+	End Blogs CSS
+===========================*/
+
+
+/*===========================
+	Contact CSS
+=============================*/
+.contact{
+	background:#fff;
+	padding: 50px 0; 
+}
+.contact .contact-ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	position: relative;
+	width: 1200px;
+	padding-top: 30px;
+	box-sizing: border-box;
+	justify-content:stretch
+}
+.contact .contact-ul .contact-ul-item {
+	width: 18%;
+	margin-left: 20px;
+	margin-top: 20px;
+	border-radius: 5px;
+	border: 1px solid #f1f1f1;
+}
+.contact .contact-ul .contact-ul-item  img{
+	width: 100%;
+}
+/*===========================
+	End Contact CSS
+=============================*/
+
+/*===========================
+	Clients CSS
+============================*/
+.clients {
+	position: relative;
+	padding: 30px 0;
+	background: #f4f9ff;
+}
+.clients-content {
+	text-align: center;
+	padding: 30px;
+}
+.clients-content button {
+	text-align: center;
+	width: 300px;
+	height: 50px;
+	background: #2ccea5;
+	font-size: 16px;
+	margin-top: 20px;
+	border-radius: 5px;
+	color: #fff;
+}
+.clients img {
+	padding: 35px;
+	filter:grayscale(1);
+	-webkit-transition:all 0.4s ease;
+	-moz-transition:all 0.4s ease;
+	transition:all 0.4s ease;
+}
+.clients img:hover{
+	filter:grayscale(0);
+	cursor:pointer;
+}
+.clients .owl-nav {
+	position: absolute;
+	left: 50%;
+	margin-left: -45px;
+	bottom: -15px;
+}
+#clients .owl-nav button {
+	background: transparent;
+	width: 30px;
+	height: 30px;
+	line-height:30px;
+	line-height: 0;
+	font-size: 20px;
+	color: #bfbfbf;
+	margin-right: 10px;
+	border:1px solid #e5e5e5;
+}
+#clients .owl-nav button:hover{
+	color:#42BC7F;
+}
+/*===========================
+	End Clients CSS
+============================*/
+
+/*===========================
+	Footer CSS
+============================*/

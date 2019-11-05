@@ -1,0 +1,189 @@
+.banner {
+    width: 100%;
+    height: 280px;
+    background: url('../img/banner2.png') no-repeat;
+    background-size: 100% 100%;
+}
+.banner .keyword {
+    text-align: center;
+    padding: 100px 0;
+    box-sizing: border-box;
+    width: 840px;
+    margin: 0 auto;
+}
+.banner .keyword .search-body {
+    position: relative;
+}
+.banner .keyword input {
+    width: 100%;
+    height: 50px;
+    padding: 0 50px;
+    box-sizing: border-box;
+    outline: none;
+    border-radius:5px; 
+    border: 1px solid #fff;
+    font-size: 15px;
+}
+.banner .keyword input:focus {
+    border: 1px solid #28c79b
+}
+.banner .keyword .search {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+.banner .keyword .closes {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    z-index: 1000;
+}
+.question-main {
+    width: 1250px;
+    margin: 0px auto;
+    margin-top: -50px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-content:space-between;
+}
+.question {
+    width: 570px;
+    height: 260px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 25px 30px;
+    border-radius:5px; 
+    margin-bottom: 20px;
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+}
+.question .question-title {
+    height: 41px;
+    border-bottom: 1px solid #eeeeee;
+    margin-bottom: 10px;
+}
+.question .question-title .often {
+    float: left;
+    font-size: 20px;
+    font-weight: 600;
+}
+.question .question-title .more {
+    float: right;
+    color: #2dcea6;
+}
+.question .question-ul {
+    display: flex;
+    flex-direction: row;
+	justify-content: inherit;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.question .question-item {
+   width: 50%;
+   height: 40px;
+   line-height: 40px;
+   box-sizing: border-box;
+}
+.question .question-ul-item {
+    display: flex;
+    flex-direction: row;
+	justify-content: inherit;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+ }
+ .question-ul-item a {
+     display: block;
+     width: 50%;
+ }
+ .question-ul-item a:hover {
+   text-decoration: underline;
+   color: #2dcea6;
+}
+ .question-ul-item .time {
+   font-size: 13px;
+   color: #b2b2b2;
+   width: 30%;
+   display: block;
+}
+.question-ul-item .download {
+    font-size: 13px;
+    color: #b2b2b2;
+    width: 20%;
+    text-align: right;
+ }
+ .question-ul-item .download button {
+    font-size: 12px;
+    color: #3c3c3c;
+    width: 80px;
+    background: #fff;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid #c6c6c6;
+    border-radius: 5px;
+ }
+ .question-ul-item .download button:hover {
+    background: #2dcea6;
+    color: #fff;
+    border: 1px solid #2dcea6;
+ }
+.question .question-item:hover {
+   text-decoration: underline;
+   color:#28c79b;
+ }
+.detail .detail-list {
+    width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-content:space-between;
+}
+.detail .detail-list-item {
+    width: 32.3%;
+    line-height: 35px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    padding: 5px 25px 25px 25px;
+    border: 1px solid #eeeeee;
+    border-radius:5px; 
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+ }
+ .detail .detail-msg {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content:space-between
+}
+.detail .detail-msg .title{
+   font-size: 20px;
+   font-weight: 600px;
+   line-height: 50px
+}
+.detail .detail-msg a:hover{
+   color: #28c79b !important;
+   text-decoration: underline;
+ }
+.detail .detail-msg .more{
+    color: #28c79b;
+    line-height: 40px
+ }
+ .contact-phone {
+     width: 720px;
+     height: 109px;
+     background: url(../img/women.png);
+     background-size: 100% 100%;
+     margin: 0 auto;
+     margin-bottom: 30px;
+     line-height: 159px;
+     text-align: right;
+     color: #ffffff;
+     padding-right: 130px;
+     box-sizing: border-box;
+ }

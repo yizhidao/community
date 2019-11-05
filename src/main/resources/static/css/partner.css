@@ -1,0 +1,126 @@
+.banner {
+    width: 100%;
+    height: 280px;
+    background: url('../img/banner4.png') no-repeat;
+    background-size: 100% 100%;
+}
+.banner .keyword {
+    text-align: center;
+    padding: 100px 0;
+    box-sizing: border-box;
+    width: 840px;
+    margin: 0 auto;
+}
+.banner .keyword .search-body .title {
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+}
+.partner-main {
+    width: 1200px;
+    min-height: 500px;
+    margin: 0 auto;
+    margin-top: -50px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow: 0 2px 25px 0px rgba(0,0,0,.1);
+    padding: 25px 35px;
+}
+.partner-main .title {
+    text-align: center;
+    font-size: 20px;
+    color: #3c3c3c;
+    padding-bottom: 25px;
+    margin-top: 10px;
+    border-bottom: 1px solid #eee;
+}
+.partner-main .title:nth-of-type(3) {
+    text-align: center;
+    font-size: 20px;
+    color: #3c3c3c;
+    padding-bottom: 25px;
+    margin-top: 40px;
+    border-bottom: 1px solid #eee;
+}
+.partner-main .title:nth-of-type(5) {
+    text-align: center;
+    font-size: 20px;
+    color: #3c3c3c;
+    padding-bottom: 25px;
+    margin-top: 40px;
+    border-bottom: 1px solid #eee;
+}
+.partner-main .parter-ul {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-content:space-between;
+}
+.parter-ul .parter-item {
+    width: 21%;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+.parter-ul .parter-item img {
+    width: 100%;
+}
+.parter-ul .parter-item:hover {
+    box-shadow: 0 2px 25px 0px rgba(0,0,0,.1);
+}
+.feedback .small-title {
+    font-size: 14px;
+    color: #b8b8b8;
+    line-height: 30px;
+}
+.feedback .form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.feedback .form input {
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border: 1px solid #eee;
+    padding-left: 15px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.feedback .form input:focus {
+    border: 1px solid #2dcea6;
+}
+.feedback .form textarea:focus {
+    border: 1px solid #2dcea6;
+}
+.feedback .form .btns {
+    width: 300px;
+    margin: 30px auto;
+    position: relative;
+    left: 50%;
+    margin-left: -150px;
+}
+.feedback .form .btns button {
+    width: 100%;
+    height: 45px;
+    background: #2dcea6;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.feedback .form textarea {
+    width: 100%;
+    outline: none;
+    border: 1px solid #eee;
+    padding: 15px 0 0 15px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
